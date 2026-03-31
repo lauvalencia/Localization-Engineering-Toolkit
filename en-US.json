@@ -1,0 +1,13 @@
+{
+  "app_title": "My Health Tracker",
+  "welcome_message": "Welcome back, user!",
+  "sync_status": "Last sync: {days_ago} days ago",
+  "buttons": {
+    "save": "Save Changes",
+    "cancel": "Cancel"
+  },
+  "metadata": {
+    "version": "1.0.2",
+    "api_key": "XY-99-Z-12345"
+  }
+}

@@ -1,0 +1,5 @@
+Mi Monitor de Salud
+¡Bienvenido de nuevo, {user_name}!
+Última sincronización: hace {days_ago} días
+Guardar Cambios
+Cancelar
