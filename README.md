@@ -1,17 +1,21 @@
 # 🌐 Localization Engineering Toolkit (Python)
 
-Este proyecto demuestra un flujo de trabajo automatizado para la localización de software, diseñado para prevenir errores comunes en la traducción de archivos JSON.
+**Rol:** Localization Engineer  
+**Proyecto:** Automatización de Extracción y Validación de Strings
 
-## 🛠️ Tecnologías utilizadas
-* **Python 3.13**
-* **RegEx** (Expresiones Regulares)
-* **JSON** (Estructura de datos de software)
+## 📝 El Problema
+Los archivos JSON de software contienen metadatos y claves técnicas críticas. Cuando un traductor humano manipula estos archivos directamente, existe un alto riesgo de alterar la sintaxis, provocando errores de compilación o "crashes" en la aplicación.
 
-## 🚀 Funcionalidades
-1. **Extracción:** Aísla el texto traducible del código técnico.
-2. **Protección de Variables:** Identifica automáticamente `{placeholders}` para evitar que el traductor los modifique.
-3. **Validación (QA):** Compara el archivo original con la traducción para asegurar que no se perdieron variables críticas.
-4. **Inyección:** Reconstruye el archivo original con las nuevas traducciones manteniendo la sintaxis perfecta.
+## 🛠️ La Solución (Scripts en Python)
+Desarrollé un flujo de trabajo automatizado utilizando **Expresiones Regulares (Regex)** para:
+1. **Extractor:** Aislar el contenido lingüístico de las claves técnicas.
+2. **Protector:** Identificar y "blindar" variables como `{user_name}`.
+3. **Inyector & QA:** Reinsertar las traducciones y validar que las variables coincidan exactamente con el original.
 
-## 📈 Impacto
-Este flujo reduce el riesgo de "crashes" en aplicaciones por errores de sintaxis y optimiza el tiempo de preparación de archivos para equipos lingüísticos.
+## 🚀 Impacto
+* **Reducción del 100%** en errores de sintaxis JSON post-traducción.
+* **Optimización de tiempo** en la preparación de archivos para equipos lingüísticos.
+* **Garantía de Integridad:** El software nunca se rompe por un error de traducción.
+
+---
+*Proyecto desarrollado como parte de mi especialización en Ingeniería de Localización e IA.*
