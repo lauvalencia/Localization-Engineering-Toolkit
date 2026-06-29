@@ -11,3 +11,10 @@
     "api_key": "XY-99-Z-12345"
   }
 }
+
+{
+  "app_notarial_header": "Diligence and Acknowledgment of Signature",
+  "error_contract_breach": "The system detected a material breach of contract.",
+  "label_legal_remedy": "Available Legal Remedies",
+  "msg_liability_disclaimer": "The Provider disclaims any civil liability arising from third-party torts."
+}
